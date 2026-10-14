@@ -1,0 +1,23 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+
+# Dataset files
+Data/
+
+# Model checkpoints and generated weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Recordings and generated datasets
+recordings/
+live_recordings/
+processed_recordings/
+processed_recordings_padded/
+processed_new_test_recordings/
